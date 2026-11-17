@@ -1,0 +1,32 @@
+# Large data files (>50MB) - see DATA_REFERENCE.md
+data/2020_*/
+data/outer/AIOps挑战赛数据/*.zip
+AIOps挑战赛2020预赛数据.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.env
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Temp upload script
+upload_to_github.py
