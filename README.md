@@ -30,41 +30,6 @@ Unsupervised anomaly detection benchmark using real production telemetry from th
 
 ---
 
-## 📁 Project Structure
-
-```
-microservice-anomaly-detection/
-│
-├── src/
-│   ├── aiops_loader.py           # Data loader for AIOps 2020 dataset
-│   ├── aiops_main_experiment.py  # Main experiment — runs all 6 detectors
-│   ├── detectors.py              # IF, LOF, OCSVM, AE, LSTM-AE, Ensemble
-│   ├── extract_data.py           # ZIP extraction utility
-│   └── ...
-│
-├── plots/
-│   ├── aiops_fig1_overall_metrics.png
-│   ├── aiops_fig2_per_fault_heatmap.png
-│   ├── aiops_fig3_roc_curves.png
-│   ├── aiops_fig4_fpr_fnr.png
-│   └── aiops_fig5_training_time.png
-│
-├── results/
-│   ├── aiops_overall_metrics.csv
-│   └── aiops_per_fault_metrics.csv
-│
-├── overleaf_upload/              # Ready-to-upload Overleaf project
-│   ├── RESEARCH_PAPER.tex
-│   ├── RESULTS_REPORT.tex
-│   └── plots/
-│
-├── RESEARCH_PAPER.tex            # Full research paper (LaTeX)
-├── RESULTS_REPORT.tex            # Experimental results report (LaTeX)
-└── requirements.txt
-```
-
----
-
 ## 🗂️ Dataset
 
 **AIOps Challenge 2020** — Zhejiang Mobile production microservice telemetry
